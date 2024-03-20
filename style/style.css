@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  background: url("/gabz.jpg");
+  background: url("/images/gabz.jpg");
   background-size: cover;
   filter: grayscale(100%);
   border-radius: 10px;
@@ -56,7 +56,7 @@ article {
   header h1 {
     font-size: 60px;
   }
-  .about-header {
+  .content {
     text-align: center;
   }
 }
@@ -76,6 +76,10 @@ article {
     width: 540px;
     text-align: left;
   }
+
+  .project-header {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -84,15 +88,15 @@ article {
   }
 }
 
-.about-header {
+.content {
   margin: 100px auto;
 }
 
-.about-header h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-header h2 {
+.content h2 {
   font-size: 20px;
 }

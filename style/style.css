@@ -17,6 +17,7 @@ header {
   filter: grayscale(100%);
   border-radius: 10px;
   height: 470px;
+  margin: 10px auto;
   text-align: center;
 }
 
@@ -57,20 +58,19 @@ footer a {
   padding: 5px;
 }
 
-footer a:hover {
-  color: #2c2c2c;
-}
-
-.footer-text {
-  font-size: 11px;
-  text-align: start;
-}
-
 .contact-box {
   max-width: 800px;
   margin: 10px auto;
   padding: 30px 35px 10px 35px;
   background-color: #6e6d6d45;
+}
+
+footer a:hover {
+  color: #2c2c2c;
+}
+
+footer p {
+  font-size: 14px;
 }
 
 @media (max-width: 991px) {

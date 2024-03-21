@@ -32,16 +32,41 @@
     <link rel="stylesheet" href="/style/style.css" />
   </head>
   <body>
-    <div class="container data">
-      <header class="d-block">
-        <h2>Hi! I am</h2>
-        <h1 class="pt-3 pb-3">Gabriela Agostinho</h1>
-        <h3>Front-end Developer, based in London</h3>
-        <a href="/" class="btn btn-secondary">Contact me</a>
-      </header>
-    </div>
-     <div class="container">
-     <article>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-secondary-emphasis">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Gabz</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+              <a class="nav-link" href="/about.html">About me</a>
+              <a class="nav-link" href="/projects.html">My projects</a>
+              <a class="nav-link" href="/projects.html">Contacts</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="data">
+        <header class="d-block">
+          <h2>Hi! I am</h2>
+          <h1 class="pt-3 pb-3">Gabriela Agostinho</h1>
+          <h3>Front-end Developer, based in London</h3>
+          <a href="/contact.html" class="btn btn-secondary">Contact me</a>
+        </header>
+      </div>
+      <article>
         <div class="row mb-4">
           <div class="col">
             <h3>Yogurt Project</h3>
@@ -51,10 +76,14 @@
               v vYogurt projectv Yogurt project v v v v Yogurt projectYogurt
               projectYogurt project
             </p>
-            <a href="/" class="btn btn-secondary ">Launch Project</a>
+            <a href="/" class="btn btn-secondary">Launch Project</a>
           </div>
           <div class="col d-none d-md-block">
-            <img src="/images/gabz.jpg" alt="" class="img-fluid rounded project-image " />
+            <img
+              src="/images/gabz.jpg"
+              alt=""
+              class="img-fluid rounded project-image"
+            />
           </div>
         </div>
         <div class="row mb-4">
@@ -69,7 +98,11 @@
             <a href="/" class="btn btn-secondary">Launch Project</a>
           </div>
           <div class="col d-none d-md-block">
-            <img src="/images/gabz.jpg" alt="" class="img-fluid rounded project-image" />
+            <img
+              src="/images/gabz.jpg"
+              alt=""
+              class="img-fluid rounded project-image"
+            />
           </div>
         </div>
         <div class="row">
@@ -84,10 +117,14 @@
             <a href="/" class="btn btn-secondary">Launch Project</a>
           </div>
           <div class="col d-none d-md-block">
-            <img src="/images/gabz.jpg" alt="" class="img-fluid rounded project-image" />
+            <img
+              src="/images/gabz.jpg"
+              alt=""
+              class="img-fluid rounded project-image"
+            />
           </div>
         </div>
-      </div>
-    </article>
+      </article>
+    </div>
   </body>
 </html>

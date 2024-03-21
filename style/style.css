@@ -1,6 +1,5 @@
 body {
   font-family: "Poppins", sans-serif;
-
   background-color: rgba(128, 128, 128, 0.408);
 }
 
@@ -45,6 +44,10 @@ article {
 }
 
 @media (max-width: 991px) {
+  .data {
+    width: auto;
+  }
+
   article {
     width: 720px;
   }

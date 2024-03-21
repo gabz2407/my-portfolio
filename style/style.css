@@ -73,6 +73,12 @@ footer p {
   font-size: 14px;
 }
 
+.footer-data {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 @media (max-width: 991px) {
   .data {
     width: auto;
@@ -121,4 +127,13 @@ footer p {
 
 .content h2 {
   font-size: 20px;
+}
+
+.contact-header a {
+  text-decoration: none;
+  color: #626262;
+}
+
+.contact-header a:hover {
+  color: #737373;
 }
